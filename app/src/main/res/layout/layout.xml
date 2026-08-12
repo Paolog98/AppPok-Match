@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- GridLayout dei bottoni -->
+    <GridLayout
+        android:id="@+id/gridPokemonTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:padding="12dp"
+        android:useDefaultMargins="true">
+
+        <!-- NORMALE -->
+        <Button
+            android:id="@+id/button_normale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#B3AFAE"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Normale"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- FUOCO -->
+        <Button
+            android:id="@+id/button_fuoco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#F44336"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Fuoco"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- ACQUA -->
+        <Button
+            android:id="@+id/button_acqua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#2196F3"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Acqua"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- ERBA -->
+        <Button
+            android:id="@+id/button_erba"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#4CAF50"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Erba"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- ELETTRO -->
+        <Button
+            android:id="@+id/button_elettro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#FFEB3B"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Elettro"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- GHIACCIO -->
+        <Button
+            android:id="@+id/button_ghiaccio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#81D4FA"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Ghiaccio"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- LOTTA -->
+        <Button
+            android:id="@+id/button_lotta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#FF7043"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Lotta"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- VELENO -->
+        <Button
+            android:id="@+id/button_veleno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#9C27B0"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Veleno"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- TERRA -->
+        <Button
+            android:id="@+id/button_terra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#FFB74D"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Terra"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- VOLANTE -->
+        <Button
+            android:id="@+id/button_volante"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#90CAF9"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Volante"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- PSICO -->
+        <Button
+            android:id="@+id/button_psico"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#EC407A"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Psico"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- COLEOTTERO -->
+        <Button
+            android:id="@+id/button_coleottero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#DCE775"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Coleottero"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- ROCCIA -->
+        <Button
+            android:id="@+id/button_roccia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#8D6E63"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Roccia"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- SPETTRO -->
+        <Button
+            android:id="@+id/button_spettro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#7E57C2"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Spettro"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- DRAGO -->
+        <Button
+            android:id="@+id/button_drago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#3F51B5"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Drago"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- BUIO -->
+        <Button
+            android:id="@+id/button_buio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#424242"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Buio"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- ACCIAIO -->
+        <Button
+            android:id="@+id/button_acciaio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#B0BEC5"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Acciaio"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <!-- FOLLETTO -->
+        <Button
+            android:id="@+id/button_folletto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@drawable/bg_pokemon_button"
+            android:backgroundTint="#F48FB1"
+            android:elevation="6dp"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:text="Folletto"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+    </GridLayout>
+
+    <!-- TextView separato sotto i bottoni-->
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cerca il pokèmon più forte con solo questo tipo..."
+        android:inputType="text"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textMessaggio"
+        style="@style/TextViewCool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="SELEZIONA UN TIPO POKÈMON"
+        android:textColor="#7A4444"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
