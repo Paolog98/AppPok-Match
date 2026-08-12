@@ -313,9 +313,9 @@
         android:id="@+id/searchEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Cerca il pokèmon più forte con solo questo tipo..."
+        android:hint="Cerca il pokèmon più forte con questo tipo..."
         android:inputType="text"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:visibility="invisible" />
 
     <ListView
