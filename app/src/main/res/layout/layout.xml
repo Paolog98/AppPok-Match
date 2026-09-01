@@ -24,12 +24,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Normale"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -56,12 +56,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Acqua"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -88,12 +88,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Elettro"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -120,12 +120,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Lotta"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -152,12 +152,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Terra"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -184,12 +184,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Psico"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -216,12 +216,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Roccia"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -248,12 +248,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Drago"
-            android:textColor="@android:color/black"
+            android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="normal" />
 
@@ -280,12 +280,12 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#B3AFAE"
+            android:backgroundTint="#000000"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
             android:text="Acciaio"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/system_accent3_600"
             android:textSize="12sp"
             android:textStyle="normal" />
 
