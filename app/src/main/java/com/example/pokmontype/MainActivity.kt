@@ -1629,7 +1629,7 @@ class MainActivity : ComponentActivity() {
             val Efficace = info?.superEff?.joinToString(", ")
             val pocoEff = info?.pocoEff?.joinToString(", ")
             val immune = info?.immune?.joinToString(", ")
-            buttonAcciaio.setTextColor(getColor(android.R.color.system_neutral1_800))
+            buttonAcciaio.setTextColor(getColor(android.R.color.system_control_normal_light))
             buttonNormale.setTextColor(getColor(R.color.white))
             buttonFuoco.setTextColor(getColor(R.color.white))
             buttonAcqua.setTextColor(getColor(R.color.white))

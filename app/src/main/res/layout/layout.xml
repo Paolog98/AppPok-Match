@@ -281,7 +281,7 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:background="@drawable/bg_pokemon_button"
-            android:backgroundTint="#D0CACA"
+            android:backgroundTint="#E9E4E4"
             android:elevation="6dp"
             android:minHeight="48dp"
             android:paddingVertical="12dp"
